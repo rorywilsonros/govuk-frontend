@@ -20,7 +20,7 @@ describe('Accordion', () => {
 
     it('renders with specified heading level', () => {
       const $ = render('accordion', {
-        headingLevel: '3',
+        headingLevel: '4',
         items: [
           {
             heading: {
